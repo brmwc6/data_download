@@ -4,8 +4,8 @@
 	$old_data = $_POST['text'];
 
 	$user_name = "root";
-	$password = "benM#059";
-	$database = "entries";
+	$password = "";
+	$database = "";
 	$server = "localhost";
 
 	$db_handle = mysql_connect($server, $user_name, $password);
